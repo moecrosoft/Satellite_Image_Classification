@@ -1,5 +1,5 @@
 # Satellite_Image_Classification
-- This project classifies satellite images by building custom Transformers in both Keras and PyTorch.
+- This project classifies satellite images by building Transformers in both Keras and PyTorch.
 - First, the pre-trained keras CNN-Vit model and pre-trained PyTorch CNN-Vit model weights (state_dict) are loaded.
 - Then the loaded model architectures are rebuilt locally so the loaded model can reconstruct the model layers.
 - Then the two models are trained on the satellite image datasets to classify the images into 'agri' and 'non-agri'.
